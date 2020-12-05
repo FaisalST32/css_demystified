@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="title">Home</li>
+      <li>About</li>
+      <li>Photos</li>
+      <li>Blog</li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <button onclick="toggleMenu()">...</button>
+
+  <p class="para">
+    Hello
+  </p>
+  <p> Hello again</p>
+
+  <script>
+    function toggleMenu() {
+      document.querySelectorAll('li').forEach(_el => {
+        if (_el.classList.contains('expanded')) {
+          _el.classList.remove(['expanded']);
+          return;
+        }
+        _el.classList.add(['expanded']);
+      })
+    }
+  </script>
+</body>
+</html>

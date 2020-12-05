@@ -1,0 +1,21 @@
+.first-para {
+  display: inline-block;
+  width: 200px;
+  color: red;
+  background-color: aqua;
+}
+
+#second-para {
+  display: inline-block;
+  width: 200px;
+  color: white;
+  background-color: gray;
+}
+
+/* .top-div > p {
+  color: cyan;
+} */
+
+.top-div p {
+  color: lightblue;
+}

@@ -1,0 +1,20 @@
+#para {
+  color: red;
+}
+
+.para-class {
+  color: blue;
+}
+p#para.para-class.para-class {
+  color: rgb(0, 118, 139);
+}
+
+p#para.para-class {
+  color: darkmagenta;
+}
+
+
+#para.para-class {
+  color: lightseagreen;
+}
+
